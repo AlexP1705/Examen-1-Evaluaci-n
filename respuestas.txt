@@ -1,0 +1,3 @@
+mkdir
+cd
+cat Alumnos.txt | grep SI | sort -n | awk '{print $4}' > si.txt
