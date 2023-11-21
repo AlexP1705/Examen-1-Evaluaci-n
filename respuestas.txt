@@ -5,3 +5,7 @@ mkdir
 mv si.txt SI/
 cat alumnos.txt | sed 's/ //g' | sed 's/ /-/g' | awk '{print $1, $4}'
 cat Alumnos.txt | grep Gonzalez | sort -k | awk '{print $1}'
+cat Alumnos.txt | sed 's/Vicente/Pepe/g'
+cat Alumnos.txt | sed "s/\(.*,\)\(.(2010-2019),\)\(.*\)/\"
+cat Alumnos.txt | grep ^j | awk '{print $1}'
+cat du.txt | grep k | grep m
